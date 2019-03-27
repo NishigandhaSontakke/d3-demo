@@ -27,7 +27,7 @@ window.onload = function(){
 		.domain([0, 3]); //input min and max
 
 	
-		
+		//population data
 	    var cityPop = [
 			{ 
 				city: 'Verona',
@@ -77,7 +77,7 @@ window.onload = function(){
 
 		 var y = d3.scaleLinear()
 		 .range([450, 50]) //was 440, 95
-		 .domain([0, 700000]); //was minPop, maxPop
+		 .domain([0, 500000]); //was minPop, maxPop
 		 
 		 var x = d3.scaleLinear() //create the scale
 		 .range([90, 750]) //output min and max
